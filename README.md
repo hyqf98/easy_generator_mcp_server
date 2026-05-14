@@ -1,4 +1,4 @@
-# Code Generator MCP Server
+# Easy Generator MCP Server
 
 基于模板的代码生成器 MCP 服务，支持 Handlebars 和 Velocity 模板引擎，提供灵活的自定义规则解析能力。
 
