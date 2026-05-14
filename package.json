@@ -1,11 +1,11 @@
 {
-  "name": "@hyqf98/code_generator_mcp_server",
-  "version": "1.0.0",
+  "name": "@hyqf98/easy_generator_mcp_server",
+  "version": "1.1.0",
   "description": "基于模板的代码生成器 MCP 服务，支持自定义规则解析",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "code-generator-mcp-server": "dist/index.js"
+    "easy-generator-mcp-server": "dist/index.js"
   },
   "scripts": {
     "start": "node dist/index.js",

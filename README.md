@@ -10,10 +10,10 @@
 
 ```bash
 # 基本配置（使用当前项目内的 .code-generator 目录）
-claude mcp add code-generator --scope user -- npx @hyqf98/code_generator_mcp_server@latest
+claude mcp add code-generator --scope user -- npx @hyqf98/easy_generator_mcp_server@latest
 
 # 指定模板路径（使用环境变量）
-claude mcp add code-generator --scope user -e CODE_GENERATOR_PATH=/path/to/templates -- npx @hyqf98/code_generator_mcp_server@latest
+claude mcp add code-generator --scope user -e CODE_GENERATOR_PATH=/path/to/templates -- npx @hyqf98/easy_generator_mcp_server@latest
 ```
 
 > **说明**: `--scope user` 将 MCP 配置到用户全局环境（`~/.claude/settings.json`），所有项目均可使用。
@@ -27,7 +27,7 @@ claude mcp add code-generator --scope user -e CODE_GENERATOR_PATH=/path/to/templ
   "mcpServers": {
     "code-generator": {
       "command": "npx",
-      "args": ["@hyqf98/code_generator_mcp_server@latest"],
+      "args": ["@hyqf98/easy_generator_mcp_server@latest"],
       "env": {
         "CODE_GENERATOR_PATH": "/path/to/templates"
       }
@@ -40,8 +40,8 @@ claude mcp add code-generator --scope user -e CODE_GENERATOR_PATH=/path/to/templ
 
 ```bash
 # 克隆项目
-git clone https://github.com/hyqf98/code_generator_mcp_server.git
-cd code_generator_mcp_server
+git clone https://github.com/hyqf98/easy_generator_mcp_server.git
+cd easy_generator_mcp_server
 
 # 安装依赖
 npm install

@@ -34,7 +34,7 @@ import { validateConfig } from './utils/config.js';
 
 // 创建 MCP Server 实例
 const server = new McpServer({
-  name: '@haijun/code-generator-mcp-server',
+  name: '@hyqf98/easy-generator-mcp-server',
   version: '1.0.0'
 });
 
